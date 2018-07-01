@@ -8,8 +8,143 @@
 
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/layout.css">
+  <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+<div class="grid-container">
+  <div class="grid-item header">
+  	<p>I'm Alan</p>
+  	<nav>
+  		<ul>
+  			<li><a href="#about">About</a></li>
+  			<li><a href="https://wecancodeit.org/flexcode/" target="_blank">My Work</a></li>
+  			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+  </div>
+  <div class="grid-item hero">
+  	<div class="hero-text">
+    	<h1>Who am I?</h1>
+    	<button> <a href="#findOut">Find Out!</a></button>
+  </div>
+
+  </div>
+
+  <div class="grid-item content programmer">
+  	<img src="./images/code1.jpg">
+  	<h3>Programmer</h3>
+  	<button id="programmer">Learn More</button>
+
+  		<!-- The Modal -->
+		<div id="programmerModal" class="modal">
+
+  			<!-- Modal content -->
+  			<div class="modal-content">
+    			<span class="close programmer">&times;</span>
+    			<h4>My Skillset Includes...</h4>
+    			<p>Java, Java 8, Test Driven Development, Spring Boot, Spring MVC, Spring Data JPA, HTML5, CSS, Advanced Layouts with CSS Grid and Flexbox, Thymeleaf, JavaScript, Ajax Requests...15 Years Experience</p>
+  			</div>
+		</div>
+  </div>
+
+  <div class="grid-item content instructor">
+	<img  id="findOut" src="./images/instructor.jpg">
+	<h3>Instructor</h3>
+	<button id="instructor">Learn More</button>
+
+  		<!-- The Modal -->
+		<div id="instructorModal" class="modal">
+
+  			<!-- Modal content -->
+  			<div class="modal-content">
+    			<span class="close instructor">&times;</span>
+    			<h4>My Skillset Includes...</h4>
+    			<p>Agile Practices, Project Facilitation, Online and In-Person, Masters Degree in Curriculum Development...12 Years Experience </p>
+  			</div>
+		</div>
+  </div>
+
+  <div class="grid-item content skateboarder">
+	<img src="./images/al3.jpg">
+	<h3>Skateboarder</h3>
+	<button id="skateboarder">Learn More</button>
+
+  		<!-- The Modal -->
+		<div id="skateboarderModal" class="modal">
+
+  			<!-- Modal content -->
+  			<div class="modal-content">
+    			<span class="close skateboarder">&times;</span>
+    			<h4>My Skillset Includes...</h4>
+    			<p>Street Style Plaza Courses, Old School 90's Flips Variations, Mini Ramps, Gaps and Stairsets in my Younger Days...20 Years Experience</p>
+  			</div>
+		</div>
+  </div>
+
+   <div class="grid-item secondContent dad">
+  	<img src="./images/dad.jpg">
+  	<h3>Father</h3>
+  	<button id="father">Learn More</button>
+
+  		<!-- The Modal -->
+		<div id="fatherModal" class="modal">
+
+  			<!-- Modal content -->
+  			<div class="modal-content">
+    			<span class="close father">&times;</span>
+    			<h4>My Skillset Includes...</h4>
+    			<p>Arriving at School on Time, Summer Camp, Swimming, Monkey Bars, Paying for Sneaky Snacks, Spoiling, Some Online Learning and Development...4 Years Experience</p>
+  			</div>
+		</div>
+  </div>
+
+  <div class="grid-item secondContent husband">
+	<img src="./images/husband3.jpg">
+	<h3>Husband</h3>
+	<button id="husband">Learn More</button>
+
+  		<!-- The Modal -->
+		<div id="husbandModal" class="modal">
+
+  			<!-- Modal content -->
+  			<div class="modal-content">
+    			<span class="close husband">&times;</span>
+    			<h4>My Skillset Includes...</h4>
+    			<p>Not Enough Date Nights, Moral Support, Cooking Spaghetti Dinners, Dishwasher, Car Maintenance, Yard Maintence, Repair Man...7 Years Experience </p>
+  			</div>
+		</div>
+  </div>
+
+  <div class="grid-item secondContent musician">
+	<img src="./images/musician.jpg">
+	<h3>Musician</h3>
+	<button id="musician">Learn More</button>
+
+  		<!-- The Modal -->
+		<div id="musicianModal" class="modal">
+
+  			<!-- Modal content -->
+  			<div class="modal-content">
+    			<span class="close musician">&times;</span>
+    			<h4>My Skillset Includes...</h4>
+    			<p>Acoustic Rock from the 90's, Electric Blues...20 Years Experience</p>
+  			</div>
+		</div>
+  </div>
+
+
+  <div class="grid-item footer" id="contact">
+	<a href="https://www.linkedin.com/in/alan-kostrick-a24159bb" class="fa fa-linkedin"></a>
+	<a href="https://github.com/AlanKostrick?tab=repositories" class="fa fa-github"></a>
+  </div>
+
+</div>
+
+
+<script src="js/app.js"></script>
 
 </body>
 </html>
