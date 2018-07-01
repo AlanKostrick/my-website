@@ -62,7 +62,7 @@ nav li a:hover {
   background-image: url(../images/al4.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;  
+  height: 445px;
 }
 
 .hero ul{
@@ -133,18 +133,18 @@ nav li a:hover {
 }
 
 .content:hover h3{
-  bottom: -16rem;
+  bottom: -13rem;
   opacity: 1;
 }
 
 .content:hover button{
-  bottom: -19rem;
+  bottom: -16rem;
   opacity: 1;
 }
 
 
 .content h3{
-  bottom: -22rem;
+  bottom: -19rem;
   color: #FFF; 
   margin: 0px;
   opacity: 0;
@@ -155,7 +155,7 @@ nav li a:hover {
 
 .content button{
   border-radius: 5px;
-  bottom: -22rem;
+  bottom: -19rem;
   color: #000;
   font-family: graduate; 
   margin: 0px;
@@ -189,12 +189,12 @@ nav li a:hover {
 
 .secondContent:hover h3{
   opacity: 1;
-  top: 68rem;
+  top: 64rem;
 }
 
 .secondContent:hover button{
   opacity: 1;
-  top: 65rem;
+  top: 61rem;
 }
 
 .secondContent h3{
@@ -202,14 +202,14 @@ nav li a:hover {
   margin: 0px;
   opacity: 0;
   position: absolute;
-  top: 63rem;
+  top: 61rem;
   transition: opacity 0.5s ease-out; 
   transition: 1s;
 }
 
 .secondContent button{
   border-radius: 5px;
-  top: 63rem;
+  top: 59rem;
   color: #000;
   font-family: graduate; 
   margin: 0px;
