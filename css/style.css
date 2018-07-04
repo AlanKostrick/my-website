@@ -154,7 +154,7 @@ nav li a:hover {
 
 .content h3{
 /*  bottom: -19rem;*/
-bottom: -1rem;
+  bottom: -1rem;
   color: #FFF; 
   margin: 0px;
 /*  opacity: 0;
@@ -203,33 +203,41 @@ bottom: -1rem;
 }
 
 .secondContent:hover h3{
+  bottom: 7rem;
   opacity: 1;
-  top: 64rem;
+  /*top: 64rem;*/
 }
 
 .secondContent:hover button{
   opacity: 1;
-  top: 61rem;
+  bottom: 5rem;
+  /*top: 61rem;*/
 }
 
 .secondContent h3{
+  bottom: -1rem;
   color: #FFF;
   margin: 0px;
-  opacity: 0;
-  position: absolute;
-  top: 61rem;
+  /*opacity: 0;
+  position: absolute;*/
+  opacity: 1;
+  position: relative;
+  /*top: 61rem;*/
   transition: opacity 0.5s ease-out; 
   transition: 1s;
 }
 
 .secondContent button{
   border-radius: 5px;
-  top: 59rem;
+  /*top: 59rem;*/
+  bottom: -2rem;
   color: #000;
   font-family: graduate; 
   margin: 0px;
-  opacity: 0;
-  position: absolute;
+ /* opacity: 0;
+  position: absolute;*/
+  opacity: 1;
+  position: relative;
   transition: opacity 0.5s ease-out;
   transition: 1s;
 }
