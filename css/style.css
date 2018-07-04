@@ -71,6 +71,10 @@ nav li a:hover {
 }
 
 .hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   color: white;
   left: 50%;
   margin: 3em auto;
